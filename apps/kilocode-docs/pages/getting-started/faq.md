@@ -162,7 +162,8 @@ Yes, you can customize Kilo Code in several ways:
 
 - **Custom Instructions:** Provide general instructions that apply to all modes, or mode-specific instructions.
 - **Custom Modes:** Create your own modes with tailored prompts and tool permissions.
-- **`.clinerules` Files:** Create `.clinerules` files in your project to provide additional guidelines.
+- **`.kilocode/rules/` Directory:** Create rule files in the `.kilocode/rules/` directory to provide project-specific guidelines. For mode-specific rules, use `.kilocode/rules-{mode}/`.
+- **`.clinerules` Files (deprecated):** Legacy file-based approach for providing additional guidelines.
 - **Settings:** Adjust various settings, such as auto-approval, diff editing, and more.
 
 ### Does Kilo Code have any auto approval settings?
